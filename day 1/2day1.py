@@ -14,4 +14,5 @@ def checkSum(a, n):
                 numsum += a[i]
     return numsum
 
+
 print(str(checkSum(a, int(n))))
