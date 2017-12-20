@@ -32,3 +32,16 @@ while stateCounter == len(memoryState) or stateCounter -1 == len(memoryState):
     memoryState["".join(a)] = stateCounter
 print(data)
 print(stateCounter)
+
+memoryState = {}
+
+stateCounter = 0
+
+while stateCounter == len(memoryState) or stateCounter -1 == len(memoryState):
+    stateCounter += 1
+    data = reallocate(data)
+    a = [str(d) for d in data]
+    memoryState["".join(a)] = stateCounter
+
+print(data)
+print(stateCounter - 1)
