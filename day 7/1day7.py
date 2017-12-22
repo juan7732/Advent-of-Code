@@ -28,3 +28,4 @@ for i in range(0, len(rootStringList)):
 for i in range(0, len(rootList)):
     if rootList[i] not in childList:
         print(rootList[i])
+        rootList[i]
